@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f5f7;
+    color: #333;
+  }
+  
+  h2, h4, h5 {
+    color: #2c3e50;
+  }
+  
+  .btn-success {
+    background-color: #27ae60;
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #1e8449;
+  }
+  
+  .btn-danger {
+    background-color: #e74c3c;
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c0392b;
+  }
+  
+  .btn-warning {
+    background-color: #f39c12;
+    border: none;
+  }
+  
+  .btn-warning:hover {
+    background-color: #d68910;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  }
+  
+  .card img {
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    background-color: #fff;
+  }
+  
+  input, textarea, select {
+    border-radius: 10px !important;
+    border: 1px solid #ccc !important;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .container h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  .form-control:focus {
+    border-color: #27ae60;
+    box-shadow: 0 0 0 0.2rem rgba(39, 174, 96, 0.25);
+  }
+  
+  hr {
+    border-top: 1px solid #ddd;
+  }
+  
+  .list-group-item {
+    border-radius: 12px;
+    margin-bottom: 10px;
+  }
+  
+  /* Header de login */
+  .card h2 {
+    color: #27ae60;
+    font-weight: bold;
+  }
+  
+  /* Botones full-width en tarjetas */
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+  
+  /* Media query responsive */
+  @media (max-width: 768px) {
+    .card img {
+      height: 180px;
+    }
+  
+    .container {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
